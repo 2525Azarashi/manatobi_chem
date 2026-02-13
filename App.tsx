@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BookOpen, CheckCircle, ArrowRight, ChevronLeft, ChevronRight, Lightbulb, AlertTriangle, Check, PenTool, LayoutList } from 'lucide-react';
 import { PROBLEMS } from './constants';
-import { AppState, Branch, ReactionProblem, InputType } from './types';
+import { AppState, Branch, ReactionProblem } from './types';
 import FormulaText from './components/FormulaText';
 
 const App: React.FC = () => {
